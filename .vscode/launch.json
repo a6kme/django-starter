@@ -17,6 +17,18 @@
             "envFile": "${workspaceFolder}/.env.dev"
         },
         {
+            "name": "[Dev] Local Exec",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/api/manage.py",
+            "args": [
+                "local_exec"
+            ],
+            "django": true,
+            "justMyCode": true,
+            "envFile": "${workspaceFolder}/.env.dev"
+        },
+        {
             "name": "Make Migrations",
             "type": "python",
             "request": "launch",
