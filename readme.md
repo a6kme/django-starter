@@ -5,6 +5,9 @@ A starter project with Django and Postgresql which can be run in DevContainer in
 
 If you have similar use cases, I hope this project helps you too.
 
+### Pre-requisites
+1. You should have Visual Studio Code and Docker installed on your machine. You should also have "Dev Containers" extension installed on your machine.
+
 ### How to use
 1. Checkout the project `git clone https://github.com/a6kme/django-starter better-food && cd better-food`. Replace `better-food` with your project name.
 3. Replace the `$$PROJECT_PLACEHOLDER$$` with the project name. Example: `grep -rl '\$\$PROJECT_PLACEHOLDER\$\$' . | xargs sed -i '' 's/\$\$PROJECT_PLACEHOLDER\$\$/better-food/g'` on Mac. `grep -rl '\$\$PROJECT_PLACEHOLDER\$\$' . | xargs sed -i 's/\$\$PROJECT_PLACEHOLDER\$\$/better-food/g'` on Linux.
