@@ -2,7 +2,7 @@
 
   services:
     postgres:
-      container_name: postgres
+      container_name: $$PROJECT_PLACEHOLDER$$_postgres
       image: postgres
       environment:
         POSTGRES_USER: postgres
@@ -19,5 +19,5 @@
 
   networks:
     app:
-      name: django_app_network
+      name: $$PROJECT_PLACEHOLDER$$_network
       driver: bridge
